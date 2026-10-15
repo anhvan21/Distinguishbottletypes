@@ -1,0 +1,9 @@
+# Dataset cho 1 sản phẩm cụ thể (định dạng YOLO).
+# Mỗi ảnh trong images/ có 1 file .txt cùng tên trong labels/,
+# mỗi dòng: <class_id> <x_center> <y_center> <width> <height> (chuẩn hóa 0-1).
+path: datasets/product
+train: images/train
+val: images/val
+
+names:
+  0: product  # đổi thành tên sản phẩm của bạn

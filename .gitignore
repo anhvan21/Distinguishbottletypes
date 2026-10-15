@@ -1,0 +1,10 @@
+outputs/*
+!outputs/.gitkeep
+*.pt
+.venv/
+__pycache__/
+.pytest_cache/
+runs/
+models/
+data_raw/
+datasets/bottle_types/
